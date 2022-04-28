@@ -1,0 +1,20 @@
+.foto-contenedor {
+    display: flex;
+    justify-content: center;
+    padding-right: 440px;
+    z-index: -100;
+}
+
+.h3contacto{
+    @media(max-width: 992px){
+        font-size: 1.5rem;
+    }
+}
+
+.foto-img {
+    width: 420px; 
+    height: 650px;   
+    border-radius: 5px;
+    box-shadow: 4px 7px 27px -1px rgba(230, 213, 245, 0.425); 
+    
+}

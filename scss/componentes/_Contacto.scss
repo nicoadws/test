@@ -1,0 +1,43 @@
+.ContactoContent {
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px 15px 15px;
+    @media(max-width: 992px){
+        flex-direction: column;
+    }
+    
+}
+
+.ContactoEnviar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 530px;
+    padding: 18px;
+    font-size: 20px;
+    width: 70%;
+    form{
+        div{
+            width: 60% !important;
+            input{
+            }
+        }
+    }
+    @media(max-width: 992px){
+        width: 100%;
+    }
+}
+
+.input-group {
+    height: 25px;
+}
+
+.areadetexto {
+    height: 60px;
+}
+
+.Contacto {
+    height: 530px;
+    padding: 18px;
+    font-size: 20px;
+    text-align: center;
+}
